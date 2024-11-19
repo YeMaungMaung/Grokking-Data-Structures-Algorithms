@@ -1,0 +1,7 @@
+Given an input array of integers nums, find an integer array, let's call it differenceArray, of the same length as an input integer array.
+
+Each element of differenceArray, i.e., differenceArray[i], should be calculated as follows: take the sum of all elements to the left of index i in array nums (let's call it leftSumi), and subtract it from the sum of all elements to the right of index i in array nums (let's call it rightSumi), taking the absolute value of the result:
+
+differenceArray[i] = | leftSumi - rightSumi |
+
+If there are no elements to the left or right of i, the corresponding sum should be taken as 0.
