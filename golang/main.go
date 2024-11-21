@@ -6,4 +6,5 @@ func main() {
 	array.Test1()
 	array.Test2()
 	array.Test3()
+	array.Test4()
 }
